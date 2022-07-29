@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "predench:vitriolic_feather"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:glow_ink_sac"
+    }
+  ],
+  "result": {
+    "item": "predench:strange_writing_book"
+  }
+}

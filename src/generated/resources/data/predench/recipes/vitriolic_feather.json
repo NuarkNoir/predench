@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CFC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "F": {
+      "tag": "forge:feathers"
+    }
+  },
+  "result": {
+    "item": "predench:vitriolic_feather"
+  }
+}

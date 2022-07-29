@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "predench:strange_writing_book"
+    ]
+  },
+  "criteria": {
+    "has_vitriolic_feather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "predench:vitriolic_feather"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "predench:strange_writing_book"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vitriolic_feather",
+      "has_the_recipe"
+    ]
+  ]
+}

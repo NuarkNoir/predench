@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.nuark.predench.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "predench.refmap.json",
+  "mixins": [
+    "MixinEnchantmentMenu",
+    "MixinEnchantmentTableBlock"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
